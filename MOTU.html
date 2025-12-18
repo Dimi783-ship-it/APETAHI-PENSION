@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apetahi Pension</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <header>
+    <nav>
+        <div class="logo">
+            <img src="tmp_9632a3b0-5a01-4b4d-92b4-21e34cebb7be" alt="Logo Apetahi Pension" class="logo-icon">
+            <span>Apetahi Pension</span>
+        </div>
+        <ul class="nav-links">
+            <li><a onclick="showPage('accueil')" class="active">Accueil</a></li>
+            <li><a onclick="showPage('activites')">Activités</a></li>
+            <li><a onclick="showPage('bungalows')">Bungalows</a></li>
+            <li><a onclick="showPage('demi-pension')">Demi-pension</a></li>
+            <li><a onclick="showPage('reservation')">Reservation</a></li>
+        </ul>
+        <div class="menu-icon">☰</div>
+    </nav>
+    </header>
+
+    <main>
+        <!-- Page Accueil -->
+        <section id="accueil" class="page-section active">
+            <div class="hero-video-container">
+                <video autoplay muted loop playsinline class="hero-video">
+                    <source src="video/VID-20251217-WA0000.mp4" type="video/mp4">
+                    Votre navigateur ne supporte pas la vidéo.
+                </video>
+                <div class="hero-text-overlay">
+                    <h1 class="hero-main-title">Bienvenue à Apetahi Pension</h1>
+                    <p>Situés sur l'île sacrée de Raiatea, nos bungalows allient confort moderne et charme polynésien. À quelques minutes du lagon et des motu, profitez d'un cadre calme pour explorer Taputapuatea, la rivière Faaroa ou simplement vous détendre face au coucher de soleil.</p>
+                </div>
+            </div>
+
+            <div class="content-accueil">
+                <div class="accueil-grid">
+                    <div class="accueil-item">
+                        <img src="Image/famille/downloadfile-6.jpeg" alt="Lagon turquoise">
+                    </div>
+                    <div class="accueil-item text-box">
+                        <p>Le Lorem Ipsum est un texte de remplissage utilisé dans le secteur de l'imprimerie et de la composition. Depuis le XVIe siècle, il sert de texte factice standard, lorsqu'un imprimeur anonyme a mélangé des caractères pour créer un livre d'exemples typographiques. Il a survécu non seulement à cinq siècles de composition électronique, sans subir de modifications majeures.</p>
+                    </div>
+                    <div class="accueil-item text-box">
+                        <p>Le Lorem Ipsum est un texte de remplissage utilisé dans le secteur de l'imprimerie et de la composition. Depuis le XVIe siècle, il sert de texte factice standard, lorsqu'un imprimeur anonyme a mélangé des caractères pour créer un livre d'exemples typographiques.</p>
+                    </div>
+                    <div class="accueil-item">
+                        <img src="images/accueil-montagne.jpg" alt="Montagne Bora Bora">
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <div class="footer-content">
+                    <div class="footer-left">
+                        <p class="footer-title">Apetahi Pension</p>
+                        <p>contact@apetahi-pension.com</p>
+                        <p>+689 XX XX XX</p>
+                    </div>
+                    <div class="footer-center">
+                        <svg class="world-map" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+                            <ellipse cx="40" cy="30" rx="25" ry="20" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
+                            <ellipse cx="70" cy="45" rx="20" ry="15" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
+                            <ellipse cx="100" cy="35" rx="30" ry="25" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
+                            <ellipse cx="140" cy="50" rx="25" ry="20" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
+                            <ellipse cx="170" cy="40" rx="20" ry="15" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
+                        </svg>
+                    </div>
+                    <div class="footer-right">
+                        <div class="instagram-icon">📷</div>
+                    </div>
+                </div>
+                <div class="footer-bar"></div>
+            </footer>
+        </section>
+
+        <!-- Page Activités -->
+        <section id="activites" class="page-section">
+            <div class="hero-kayak">
+                <img src="images/activite-kayak.jpg" alt="Kayak">
+                <div class="hero-kayak-text">
+                    <p>Découvrez Raiatea autrement grâce à nos activités autour du lagon, des montagnes et des trésors polynésiens : plongée, randonnée, vanille et perles</p>
+                </div>
+            </div>
+
+            <div class="activites-content">
+                <!-- La plongée -->
+                <div class="activite-block">
+                    <div class="activite-text-left">
+                        <h2>la plongée</h2>
+                        <p>Découvrez la faune et la flore sous-marine grâce à votre baptême de plongée à Raiatea ! Avec un moniteur de plongé à vos côtés, vous irez à la passe de Teavapiti qui est un spot idéal pour observer des poissons clown et leurs anémones, les coraux et peut-être même des tortues !</p>
+                    </div>
+                    <div class="activite-image-right">
+                        <img src="images/activite-poisson.jpg" alt="Poisson tropical">
+                    </div>
+                </div>
+
+                <!-- Randonnée -->
+                <div class="activite-block reverse">
+                    <div class="activite-image-left">
+                        <img src="images/activite-montagne.jpg" alt="Vue montagne">
+                    </div>
+                    <div class="activite-text-right">
+                        <h2>Randonnée</h2>
+                        <p>Envie de prendre un peu de hauteur? Pour les plus aguerris, l'itinéraire couvre plus de 14 kms avec un dénivelé de 800 mètres. Cette randonnée s'effectue en 6 heures environ où votre motivation sera récompensée par cette vie magnifique sur le lagon et la passe.</p>
+                    </div>
+                </div>
+
+                <!-- La ferme perlière -->
+                <div class="activite-block">
+                    <div class="activite-text-left">
+                        <h2>la ferme perlière</h2>
+                        <p>Venez visiter la ferme perlière Ra'iatea Pearl où vous pourrez assister au travail du greffeur expérimenté. Vous découvrirez notre passion: l'élevage de nos huîtres, la Pinctada margaritifera à lèvres noires qui, entre 18 mois et 3 ans peut produire une perle arrivée à maturité.</p>
+                    </div>
+                    <div class="activite-image-right">
+                        <img src="images/activite-nacre.jpg" alt="Nacres">
+                    </div>
+                </div>
+
+                <!-- La vanille de Taha'a -->
+                <div class="activite-block reverse">
+                    <div class="activite-image-left multi-image">
+                        <img src="images/activite-vanille-1.jpg" alt="Vanille 1">
+                        <img src="images/activite-vanille-2.jpg" alt="Vanille 2">
+                        <img src="images/activite-vanille-3.jpg" alt="Vanille 3">
+                    </div>
+                    <div class="activite-text-right">
+                        <h2>la vanille de taha'a</h2>
+                        <p>Plongez dans cette découverte olfactive de la vanilleraie à Taha'a et venez découvrir cette orchidée particulière et captivante, pollinisée uniquement à la main, chaque fleur révèlera au bout de 9 mois les premières gousses arrivées à maturité.</p>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <div class="footer-content">
+                    <div class="footer-left">
+                        <p class="footer-title">Apetahi Pension</p>
+                        <p>contact@apetahi-pension.com</p>
+                        <p>+689 XX XX XX</p>
+                    </div>
+                    <div class="footer-center">
+                        <svg class="world-map" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+                            <ellipse cx="40" cy="30" rx="25" ry="20" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
+                            <ellipse cx="70" cy="45" rx="20" ry="15" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
+                            <ellipse cx="100" cy="35" rx="30" ry="25" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
+                            <ellipse cx="140" cy="50" rx="25" ry="20" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
+                            <ellipse cx="170" cy="40" rx="20" ry="15" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
+                        </svg>
+                    </div>
+                    <div class="footer-right">
+                        <div class="instagram-icon">📷</div>
+                    </div>
+                </div>
+                <div class="footer-bar"></div>
+            </footer>
+        </section>
+
+        <!-- Page Bungalows -->
+        <section id="bungalows" class="page-section">
+            <div class="bungalows-hero">
+                <img src="images/bungalows-pilotis.jpg" alt="Bungalows sur pilotis">
+            </div>
+
+            <div class="bungalows-content">
+                <!-- Tiare -->
+                <div class="bungalow-type">
+                    <div class="bungalow-images">
+                        <img src="images/bungalow-tiare-ext.jpg" alt="Tiare extérieur">
+                        <img src="images/bungalow-tiare-int.jpg" alt="Tiare intérieur">
+                    </div>
+                    <div class="bungalow-description">
+                        <h2>tiare (la fleur)</h2>
+                        <p>Le bungalow Tiare s'ouvre sur un jardin fleuri, au le parfum des gardénias polynésiennes accompagne chaque réveil. Idéal pour un séjour en couple, entre deux échappées et douceur de façon tout proche.</p>
+                    </div>
+                </div>
+
+                <!-- Moana -->
+                <div class="bungalow-type reverse">
+                    <div class="bungalow-description">
+                        <h2>moana (l'océan)</h2>
+                        <p>Le bungalow Moana invite à vivre au rythme de l'océan : lumière naturelle, brise de lagon et atmosphère douce font de chaque séjour un moment de paix. Parfait pour ceux qui rêvent de passer leurs journées entre plage, sorties légères et couchées de soleil.</p>
+                    </div>
+                    <div class="bungalow-images">
+                        <img src="images/bungalow-moana-ext.jpg" alt="Moana extérieur">
+                        <img src="images/bungalow-moana-int.jpg" alt="Moana intérieur">
+                    </div>
+                </div>
+
+                <!-- Hinatea -->
+                <div class="bungalow-type">
+                    <div class="bungalow-images">
+                        <img src="images/bungalow-hinatea-ext.jpg" alt="Hinatea extérieur">
+                        <img src="images/bungalow-hinatea-int.jpg" alt="Hinatea intérieur">
+                    </div>
+                    <div class="bungalow-description">
+                        <h2>hinatea (dessus de la lune)</h2>
+                        <p>Inspiré par Hinatea, fléesse de la lune, ce bungalow offre une ambiance douce et apaisante, idéale pour se ressourcer après une journée d'excursions. Les lumières tamisées et les tons clairs créent une atmosphère intime pour les soirées sous les étoiles.</p>
+                    </div>
+                </div>
+
+                <!-- Moerani -->
+                <div class="bungalow-type reverse">
+                    <div class="bungalow-description">
+                        <h2>moerani (doux rêves)</h2>
+                        <p>Pensé pour le repos absolu, le bungalow Moerani est le refuge des deux rêvés. Mana confortable, grande lit, bungalow parfait pour ceux qui cherchent un refuge paisible détente coup d'œil. Bungalow parfait pour une famille calme et sa révéille en pleine sérénité.</p>
+                    </div>
+                    <div class="bungalow-images">
+                        <img src="images/bungalow-moerani-ext.jpg" alt="Moerani extérieur">
+                        <img src="images/bungalow-moerani-int.jpg" alt="Moerani intérieur">
+                    </div>
+                </div>
+            </div>
+
+            <div class="rejoignez-nous">
+                <h2>rejoignez-nous</h2>
+            </div>
+
+            <footer>
+                <div class="footer-content">
+                    <div class="footer-left">
+                        <p class="footer-title">Apetahi Pension</p>
+                        <p>contact@apetahi-pension.com</p>
+                        <p>+689 XX XX XX</p>
+                    </div>
+                    <div class="footer-center">
+                        <svg class="world-map" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+                            <ellipse cx="40" cy="30" rx="25" ry="20" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
+                            <ellipse cx="70" cy="45" rx="20" ry="15" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
+                            <ellipse cx="100" cy="35" rx="30" ry="25" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
+                            <ellipse cx="140" cy="50" rx="25" ry="20" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
+                            <ellipse cx="170" cy="40" rx="20" ry="15" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
+                        </svg>
+                    </div>
+                    <div class="footer-right">
+                        <div class="instagram-icon">📷</div>
+                    </div>
+                </div>
+                <div class="footer-bar"></div>
+            </footer>
+        </section>
+
+        <!-- Page Demi-pension -->
+        <section id="demi-pension" class="page-section">
+            <div class="repas-hero">
+                <img src="images/repas-plage.jpg" alt="Repas sur la plage">
+            </div>
+
+            <div class="repas-content">
+                <div class="repas-grid">
+                    <div class="repas-item">
+                        <img src="images/repas-poisson-cru.jpg" alt="Poisson cru">
+                    </div>
+                    <div class="repas-item text-box">
+                        <p>Le Lorem Ipsum est un texte de remplissage utilisé dans le secteur de l'imprimerie et de la composition. Depuis le XVIe siècle, il sert de texte factice standard, lorsqu'un imprimeur anonyme a mélangé des caractères.</p>
+                    </div>
+                </div>
+
+                <div class="repas-circles">
+                    <div class="repas-circle">
+                        <img src="images/repas-petit-dejeuner.jpg" alt="Petit déjeuner">
+                        <p>Le Lorem Ipsum est un texte de remplissage utilisé dans le secteur de l'imprimerie et de la composition. Depuis le XVIe siècle, il sert de texte factice standard, lorsqu'un imprimeur anonyme a mélangé des caractères.</p>
+                    </div>
+                    <div class="repas-circle">
+                        <img src="images/repas-plat-local.jpg" alt="Plat local">
+                        <p>Le Lorem Ipsum est un texte de remplissage utilisé dans le secteur de l'imprimerie et de la composition. Depuis le XVIe siècle, il sert de texte factice standard, lorsqu'un imprimeur anonyme a mélangé des caractères.</p>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <div class="footer-content">
+                    <div class="footer-left">
+                        <p class="footer-title">Apetahi Pension</p>
+                        <p>contact@apetahi-pension.com</p>
+                        <p>+689 XX XX XX</p>
+                    </div>
+                    <div class="footer-center">
+                        <svg class="world-map" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+                            <ellipse cx="40" cy="30" rx="25" ry="20" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
+                            <ellipse cx="70" cy="45" rx="20" ry="15" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
+                            <ellipse cx="100" cy="35" rx="30" ry="25" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
+                            <ellipse cx="140" cy="50" rx="25" ry="20" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
+                            <ellipse cx="170" cy="40" rx="20" ry="15" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
+                        </svg>
+                    </div>
+                    <div class="footer-right">
+                        <div class="instagram-icon">📷</div>
+                    </div>
+                </div>
+                <div class="footer-bar"></div>
+            </footer>
+        </section>
+
+        <!-- Page Reservation -->
+        <section id="reservation" class="page-section">
+            <div class="reservation-hero">
+                <img src="images/danse-tahitienne.jpg" alt="Danse tahitienne">
+            </div>
+
+            <div class="reservation-forms">
+                <!-- Formulaire de réservation -->
+                <div class="reservation-container">
+                    <h2>Réservation</h2>
+                    <form class="reservation-form">
+                        <div class="form-group">
+                            <label>Nom complet</label>
+                            <input type="text" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" required>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Date d'arrivée</label>
+                                <input type="date" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label>Date de départ</label>
+                                <input type="date" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>Nombre de personnes</label>
+                            <input type="number" min="1" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>Message</label>
+                            <textarea rows="5"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn-submit">Envoyer la demande</button>
+                    </form>
+                </div>
+
+                <!-- Formulaire de paiement -->
+                <div class="payment-container">
+                    <h2>formulaire de paiement</h2>
+                    <div class="sun-icon">☀️</div>
+                    <form class="payment-form">
+                        <div class="form-section">
+                            <label>1. Nom complet</label>
+                            <div class="form-row">
+                                <input type="text" placeholder="Prénom">
+                                <input type="text" placeholder="Nom de famille">
+                            </div>
+                        </div>
+
+                        <div class="form-section">
+                            <label>2. Adresse email</label>
+                            <input type="email" placeholder="📧">
+                        </div>
+
+                        <div class="form-section">
+                            <label>3. Numéro de téléphone</label>
+                            <input type="tel" placeholder="📞">
+                        </div>
+
+                        <div class="form-section">
+                            <label>4. Adresse de facturation</label>
+                            <input type="text" placeholder="📍 Adresse">
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <footer>
+                <div class="footer-content">
+                    <div class="footer-left">
+                        <p class="footer-title">Apetahi Pension</p>
+                        <p>contact@apetahi-pension.com</p>
+                        <p>+689 XX XX XX</p>
+                    </div>
+                    <div class="footer-center">
+                        <svg class="world-map" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+                            <ellipse cx="40" cy="30" rx="25" ry="20" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
+                            <ellipse cx="70" cy="45" rx="20" ry="15" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
+                            <ellipse cx="100" cy="35" rx="30" ry="25" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
+                            <ellipse cx="140" cy="50" rx="25" ry="20" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
+                            <ellipse cx="170" cy="40" rx="20" ry="15" fill="none" stroke="white" stroke-width="1" opacity="0.5"/>
+                        </svg>
+                    </div>
+                    <div class="footer-right">
+                        <div class="instagram-icon">📷</div>
+                    </div>
+                </div>
+                <div class="footer-bar"></div>
+            </footer>
+        </section>
+    </main>
+
+    <script>
+        function showPage(pageId) {
+            document.querySelectorAll('.page-section').forEach(section => {
+                section.classList.remove('active');
+            });
+            
+            document.querySelectorAll('.nav-links a').forEach(link => {
+                link.classList.remove('active');
+            });
+            
+            document.getElementById(pageId).classList.add('active');
+            event.target.classList.add('active');
+            
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
